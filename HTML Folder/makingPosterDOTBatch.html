@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Freehand&family=Rowdies&family=Secular+One&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Freehand&family=Secular+One&family=Ubuntu+Condensed&display=swap');
+        img{
+            border-radius: 10px;
+        }
+        #price{
+            color: blueviolet;
+            font-weight: 500;
+            width: 166px;
+            font-family: 'Rowdies', cursive;
+            margin-left: 40px;
+            padding-right: 20px;
+        }
+        #green{
+            background-color: rgb(24, 215, 159);
+            border-radius: 5px;
+            border-style: hidden;
+            font-family: 'Rowdies', cursive;
+            height: 30px;
+            width: 100px;
+            color: white;
+        }
+        #divi{
+            width: 500px;
+        }
+        #newText{
+            font-family: 'Secular One', sans-serif;
+            font-weight: bolder;
+            padding: 0;
+            margin: 0;
+        }
+        #dumbPrice{
+            font-family: 'Rowdies', cursive;
+            padding-right: 10px;
+            color: grey;
+        }
+        hr{
+            border: 1px solid rgb(138, 133, 133);
+        }
+    </style>
+</head>
+<body>
+    <div id="divi">
+        <figure>
+            <img src="Web_Dev_Poster.jpg" alt="This is an image" height="250px" width="470px">
+            <figcaption>
+                <h1 id="newText">Web Development Master Course @dotBatch</h1><hr>
+            </figcaption>  
+        </figure>
+        <span id="price">&#8377;4500</span>
+        <span id="dumbPrice"><strike>&#8377;6999</strike></span>
+        <span><button id="green">42% off</button></span>
+    </div>
+</body>
+</html>
