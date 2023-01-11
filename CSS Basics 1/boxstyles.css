@@ -1,0 +1,12 @@
+p{
+    color: green;
+}
+.box{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    box-shadow: 2px 2px 12px;
+}
+h1{
+    text-shadow: 2px 2px 4px blueviolet;
+}
