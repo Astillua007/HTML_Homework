@@ -1,0 +1,28 @@
+.hello1{
+    top: 0px;
+    left: 15px;
+}
+.hello2{
+    top: 0px;
+    left: 450px;
+}
+.hello3{
+    top: 470px;
+}
+.hello4{
+    left: 450px;
+    top: 470px;
+}
+.hello5{
+    top: 240px;
+    left: 240px;
+    
+}
+.box{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+}
+p{
+    position: absolute;
+}
