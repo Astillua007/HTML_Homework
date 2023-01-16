@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Freehand&family=Rowdies&family=Secular+One&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Freehand&family=Rowdies&family=Secular+One&family=Ubuntu+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #F2EBE3;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-box{
+    display: flex;
+    background-color: white;
+    border-radius: 1.5em;
+    max-width: 700px;
+    margin: 200px 200px;
+}
+.card-text{
+    padding: 30px 30px 30px 30px;
+}
+.image-mug{
+    display: block;
+    min-height: 400px;
+    width: 350px;
+}
+.text-1{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.3em;
+    color: grey;
+    padding-bottom: 20px;
+}
+.cap{
+   font-weight: 700;
+   font-family: "Fraunces", serif;
+   padding-bottom: 20px;
+}
+.detailes{
+    font-family:"Montserrat", sans-serif;
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding:10px 20px 10px 2    0px;
+}
+.c-Price{
+    color: green;
+    font-size: xx-large;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+}
+.i-Price{
+    color: green;
+    font-size: large;
+}
+.btn{
+    display: block;
+    width: 90%;
+    background-color: green;
+    color: white;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 0px solid green;
+}
+span{
+    padding:
+}
